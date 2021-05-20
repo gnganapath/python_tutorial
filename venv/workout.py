@@ -26,3 +26,17 @@ class student:
 
         #avg of student calc
         #avg/5
+
+
+
+
+#conditional statement
+
+mark = int(input("enter your mark"))
+
+if(mark <=35):
+    print('fail')
+elif(mark > 35 and mark < 60):
+    print('pass to clear')
+else:
+    print("firstclass")
