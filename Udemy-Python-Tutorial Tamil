@@ -1,0 +1,82 @@
+Udemy-Python-Tutorial Tamil:
+----------------------------
+
+1.Python Installation
+2.IDE -> hyper and pyCharm
+3. Python data type : -> Dynamic data types ( string->init->string).
+					Case sensitive, Typcasting String + int -> error string+str(int) = ? string + int value
+					
+					
+``e.g=> age = input('Enter your Age')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.18363.1500]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\username>a=10
+'a' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\username>python
+Python 3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a=10
+>>> a
+10  
+>>> a="tutorial"
+>>> a
+'tutorial'
+>>> int a =0
+  File "<stdin>", line 1
+    int a =0
+        ^
+SyntaxError: invalid syntax
+>>> a=1
+>>> a
+1   
+>>> a='sdf'
+>>> a
+'sdf'
+>>> A='fff'
+>>> a
+'sdf'
+>>> A
+'fff'
+>>> age= input('enter ur age')
+enter ur age1
+>>> age
+'1' 
+>>> age=int(input('enter age'))
+enter age3
+>>> age
+3   
+>>> print("my age"+age)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+>>> print("my age"+str(age)
+... print("my age"+str(age))
+  File "<stdin>", line 2
+    print("my age"+str(age))
+    ^
+SyntaxError: invalid syntax
+>>> print("my age"+str(age))
+my age3
+>>>
+KeyboardInterrupt
+>>>
